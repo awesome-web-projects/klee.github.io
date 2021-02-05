@@ -62,7 +62,20 @@ POSIX environment under macOS. KLEE might not work under x86-32.
    * [metaSMT](https://github.com/agra-uni-bremen/metaSMT) supports
      various solvers, including Boolector, CVC4, STP, Z3 and Yices.  We recommend branch v4.rc1 (`git clone -b v4.rc1 ...`). For build instructions, see [here](https://github.com/agra-uni-bremen/metaSMT).
 
-4. **(Optional) Build uClibc and the POSIX environment model (not supported on macOS):** By default, KLEE works on closed programs (programs that don't use any external code such as C library functions). However, if you want to use KLEE to run real programs you will want to enable the KLEE POSIX runtime, which is built on top of the [uClibc](http://uclibc.org) C library.
+4. **(Optional) Get Google test sources:**
+
+   For unit tests we use the Google test libraries. If you want to run the unit tests you need to perform this step and also pass `-DENABLE_UNIT_TESTS=ON` to CMake when configuring KLEE in step 8.
+
+   We depend on a version `1.7.0` right now so grab the sources for it.
+
+   ```bash
+   $ curl -OL https://github.com/google/googletest/archive/release-1.7.0.zip
+   $ unzip release-1.7.0.zip
+   ```
+
+   This will create a directory called `googletest-release-1.7.0`.
+
+5. **(Optional) Build uClibc and the POSIX environment model (not supported on macOS):** By default, KLEE works on closed programs (programs that don't use any external code such as C library functions). However, if you want to use KLEE to run real programs you will want to enable the KLEE POSIX runtime, which is built on top of the [uClibc](http://uclibc.org) C library.
 
    ```bash
    $ git clone https://github.com/klee/klee-uclibc.git  
@@ -76,51 +89,42 @@ POSIX environment under macOS. KLEE might not work under x86-32.
    **NOTE:** If you are on a different target (i.e., not i386 or x64), you will need to run `make config` and select the correct target. The defaults for the other uClibc configuration variables should be fine.  <br/><br/>  
 
    To tell KLEE to use both klee-uclibc and the POSIX runtime, pass
-   `-DENABLE_POSIX_RUNTIME=ON` and `-DKLEE_UCLIBC_PATH=<KLEE_UCLIBC_SOURCE_DIR>`
+   `-DENABLE_POSIX_RUNTIME=ON`, `-DENABLE_KLEE_UCLIBC=ON` and `-DKLEE_UCLIBC_PATH=<KLEE_UCLIBC_SOURCE_DIR>`
    to CMake when configuring KLEE in step 8 where `<KLEE_UCLIBC_SOURCE_DIR>` is
-   the absolute path to the cloned `klee-uclibc` git repository.<br/><br/>  
+   the absolute path to the cloned `klee-uclibc` git repository.<br/><br/>
 
-5. **(Optional) Build LibC++:** To be able to run C++ code, you also need to enable support for the C++ standard library.
-
-   Run from the main KLEE source directory:
-
-   ```bash
-   $ LLVM_VERSION=9 SANITIZER_BUILD= BASE=<LIBCXX_INSTALL_DIR> REQUIRES_RTTI=1 DISABLE_ASSERTIONS=1 ENABLE_DEBUG=0 ENABLE_OPTIMIZED=1 ./scripts/build/build.sh libcxx
-   ```
-   where `<LIBCXX_INSTALL_DIR>` is the absolute path where `libcxx` should be installed. Make sure that `clang++-9` is available in the path.
-
-   To tell KLEE to use libcxx, pass the following flags to CMake when you configure KLEE in step 8:
-
-   ```bash
-   -DENABLE_KLEE_LIBCXX=ON -DKLEE_LIBCXX_DIR=<LIBCXX_INSTALL_DIR>/libc++-install-9/ -DKLEE_LIBCXX_INCLUDE_DIR=<LIBCXX_INSTALL_DIR>/libc++-install-9/include/c++/v1/
-   ```
-
-   Note that `<LIBCXX_INSTALL_DIR>` must currently be an absolute path. Note that if you want to 
-   build `libcxx` in your user home path, that in some enviornments (such as Ubuntu 18.04), `~` 
-   may not be an absolute path, but you can use `$HOME` instead. 
-
-6. **(Optional) Get Google test sources:**
-
-   For unit tests we use the Google test libraries. If you want to run the unit tests you need to perform this step and also pass `-DENABLE_UNIT_TESTS=ON` to CMake when configuring KLEE in step 8.
-
-   We depend on a version `1.7.0` right now so grab the sources for it.
-
-   ```bash
-   $ curl -OL https://github.com/google/googletest/archive/release-1.7.0.zip
-   $ unzip release-1.7.0.zip
-   ```
-
-   This will create a directory called `googletest-release-1.7.0`.
-
-
-7. **Get KLEE source:**  
+6. **Get KLEE source:**
 
    ```bash
    $ git clone https://github.com/klee/klee.git
    ```
-   
 
-8. **Configure KLEE:**  
+7. **(Optional) Build libc++:** To be able to run C++ code, you also need to enable support for the C++ standard library.
+
+   Make sure that `clang++-9` is in your path. Then, run from the main KLEE source directory:
+
+   ```bash
+   $ LLVM_VERSION=9 SANITIZER_BUILD= BASE=<LIBCXX_DIR> REQUIRES_RTTI=1 DISABLE_ASSERTIONS=1 ENABLE_DEBUG=0 ENABLE_OPTIMIZED=1 ./scripts/build/build.sh libcxx
+   ```
+   where `<LIBCXX_DIR>` is the absolute path where libc++ should be cloned and built.
+
+   To tell KLEE to use libc++, pass the following flags to CMake when you configure KLEE in step 8:
+
+   ```bash
+   -DENABLE_KLEE_LIBCXX=ON -DKLEE_LIBCXX_DIR=<LIBCXX_DIR>/libc++-install-9/ -DKLEE_LIBCXX_INCLUDE_DIR=<LIBCXX_DIR>/libc++-install-9/include/c++/v1/
+   ```
+
+   To additionally enable KLEE's exception handling support for C++, pass the following flags to CMake when you configure KLEE in step 8:
+
+   ```bash
+   -DENABLE_KLEE_EH_CXX=ON -DKLEE_LIBCXXABI_SRC_DIR=<LIBCXX_DIR>/llvm-9/libcxxabi/
+   ```
+
+   Note that `<LIBCXX_DIR>` must currently be an absolute path. Note that if you want to
+   build libc++ in your user home path, that in some environments (such as Ubuntu 18.04), `~`
+   may not be an absolute path, but you can use `$HOME` instead.
+
+8. **Configure KLEE:**
 
    KLEE must be built "out of source", so first create a build directory. You can create this wherever you like.  Below, we assume you create this directory inside KLEE's repository.
 
@@ -150,14 +154,14 @@ POSIX environment under macOS. KLEE might not work under x86-32.
      -DGTEST_SRC_DIR=<GTEST_SOURCE_DIR> \
      -DLLVM_CONFIG_BINARY=<PATH_TO_llvm-config-9> \
      -DLLVMCC=<PATH_TO_clang-9> \
-     -DLLVMCXX=<PATH_TO_clang++-9>
+     -DLLVMCXX=<PATH_TO_clang++-9> \
      <KLEE_SRC_DIRECTORY>
    ```
 
    Where `<KLEE_UCLIBC_SOURCE_DIR>` is the absolute path to the klee-uclibc source tree,
    `<GTEST_SOURCE_DIR>` is the absolute path to the Google Test source tree.
 
-   **NOTE 1:** You can simply type `cmake ..` to use the default options for KLEE (but note that these will not include support for uClibC and the POSIX runtime.
+   **NOTE 1:** You can simply type `cmake ..` to use the default options for KLEE (but note that these will not include support for uClibC and the POSIX runtime).
 
    **NOTE 2:** If LLVM is not found or you need a particular version to be used, you can pass `-DLLVM_CONFIG_BINARY=<LLVM_CONFIG_BINARY>` to CMake where `<LLVM_CONFIG_BINARY>` is the absolute path to the
    relevant `llvm-config` binary. Similarly, KLEE needs a C and C++ compiler that can create LLVM bitcode that is compatible with the LLVM version KLEE is using. If these are not detected automatically, `-DLLVMCC=<PATH_TO_CLANG>` and `-DLLVMCXX=<PATH_TO_CLANG++>` can be passed to explicitly set these compilers, where `<PATH_TO_CLANG>` is the absolute path to `clang` and `<PATH_TO_CLANG++>` is the absolute path to `clang++`.
@@ -165,7 +169,7 @@ POSIX environment under macOS. KLEE might not work under x86-32.
    **NOTE 3:** By default, KLEE uses tcmalloc as its allocator, to support reporting of memory usage above 2GB. If you don't want to install tcmalloc (`libtcmalloc-minimal4 libgoogle-perftools-dev` Ubuntu packages) on your system or prefer to use glibc allocator, pass `-DENABLE_TCMALLOC=OFF` to CMake when configuring KLEE.
 
 
-9. **Build KLEE:**  
+9. **Build KLEE:**
 
    From the ``build`` directory created in the previous step run.
 
