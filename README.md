@@ -39,22 +39,38 @@ $ bundle exec jekyll build
 
 Contributions, both to content and design are welcome and encouraged. To contribute, please submit a pull request.
 
+### Contributing to the Publication List
+
+Please open a pull request for missing [publications](https://klee.github.io/publications/) that build upon or use KLEE.
+All list entries are ordered by publication date and follow the layout below:
+
+```markdown
+1. [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf)⎵⎵
+⎵⎵Cristian Cadar, Daniel Dunbar, Dawson Engler⎵⎵
+⎵⎵USENIX Symposium on Operating Systems Design and Implementation (OSDI 2008)⎵⎵
+⎵⎵December 8-10, 2008, San Diego, CA, USA⎵⎵
+⎵⎵**Klee is available [here](https://klee.github.io/).**
+```
+
+Note that the template language requires that two spaces (shown as `⎵`) are added to every but the last line to insert line-breaks.
+
+
 ## Adding Release Documentation
 
 The repository has old versions of the documentation in `releases/docs/`. To generate documentation for a new release, do the following:
 
 1. Open `_config.yml` and
  - Change `is_release` to `true`
- - Add the `releases` folder to `excludes`
+ - Add the `doxygen` and `releases` folders to `exclude`
  - Set `current_version` to the new KLEE version
 
-2. Run the following command, where `<VERSION>` is the KLEE version:
+2. Run the following command, where `<VERSION>` is the KLEE version (e.g., "v2.3"):
 
 ```
 $ jekyll build -d releases/docs/<VERSION> --baseurl /releases/docs/<VERSION>
 ```
 
-3. Clear the changes made to `_config.yml` (e.g. by doing `git reset --hard`)
+3. Clear the changes made to `_config.yml`, except for the `current_version`
 4. Add `releases/docs/<VERSION>` to the repository
 5. Add an entry for the release in `releases/index.md`
 6. Commit the changes

@@ -3,7 +3,7 @@ layout: default
 title: Publications
 subtitle: Publications and Systems Using KLEE
 slug: publications
-lead: Below you can find a list of 200+ papers and systems that either use or extend KLEE. They are listed in chronological order.
+lead: Below you can find a list of 250+ papers and systems that either use or extend KLEE. They are listed in chronological order.
 ---
 
 We regularly organise workshops to discuss ideas and new applications.
@@ -11,12 +11,14 @@ Additional information about systems and research based on KLEE can be found on 
 
 * [1st International KLEE Workshop on Symbolic Execution](https://srg.doc.ic.ac.uk/klee18/)
 * [2nd International KLEE Workshop on Symbolic Execution](https://srg.doc.ic.ac.uk/klee21/)
+* [3rd International KLEE Workshop on Symbolic Execution](https://srg.doc.ic.ac.uk/klee22/)
 * [KLEE YouTube channel](https://www.youtube.com/channel/UCFLstNVKLkw-I91bUva3KWQ)
 
 If you have used or extended KLEE and would like to have your paper
 listed here, please open a pull request at
 [https://github.com/klee/klee.github.io/pulls](https://github.com/klee/klee.github.io/pulls).
 Alternatively, email [klee-dev-owner](mailto:klee-dev-owner@imperial.ac.uk) or [c.cadar@imperial.ac.uk](mailto:c.cadar@imperial.ac.uk).
+Artifacts published at Zenodo can also be registered with the [Symbolic Execution community](https://zenodo.org/communities/symex/).
 
 1. [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf)  
   Cristian Cadar, Daniel Dunbar, Dawson Engler  
@@ -493,7 +495,12 @@ Alternatively, email [klee-dev-owner](mailto:klee-dev-owner@imperial.ac.uk) or [
 1. [Experience Report: How is Dynamic Symbolic Execution Different from Manual Testing? - A Study on KLEE](https://dl.acm.org/doi/10.1145/2771783.2771818)  
   Xiaoyin Wang, Lingming Zhang, Philip Tanofsky  
   ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2015)  
-  July 12-17, 2015, Baltimore, USA
+  July 14-17, 2015, Baltimore, USA
+
+1. [Enhancing Reuse of Constraint Solutions to Improve Symbolic Execution](https://dl.acm.org/doi/10.1145/2771783.2771806)  
+  Xiangyang Jia, Carlo Ghezzi, Shi Ying  
+  ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2015)  
+  July 14-17, 2015, Baltimore, USA
 
 1. [Symbolic Execution for BIOS Security](https://www.usenix.org/system/files/conference/woot15/woot15-paper-bazhaniuk.pdf)  
   Oleksandr Bazhaniuk, John Loucaides, Lee Rosenbaum, Mark R. Tuttle, Vincent Zimmer  
@@ -576,7 +583,7 @@ Alternatively, email [klee-dev-owner](mailto:klee-dev-owner@imperial.ac.uk) or [
   Fengjuan Gao, Lingzhang Wang, Xuandong Li  
   IEEE/ACM International conference on Automated Software Engineering (ASE 2016)  
   September 3-7, 2016, Singapore, Singapore  
-  **BovInspector is available [here](https://github.com/terry2012/project).**
+  **BovInspector is available [here](https://github.com/BovInspector/project).**
 
 1. [Conc-iSE: Incremental Symbolic Execution of Concurrent Software](https://dl.acm.org/doi/abs/10.1145/2970276.2970332)  
   Shengjian Guo, Markus Kusano, Chao Wang  
@@ -1090,6 +1097,11 @@ Alternatively, email [klee-dev-owner](mailto:klee-dev-owner@imperial.ac.uk) or [
   International Conference on Computer Aided Verification (CAV 2020)  
   July 19-24, 2020, Virtual Event, USA
 
+1. [Countermeasures Optimization in Multiple Fault-Injection Context](https://ieeexplore.ieee.org/abstract/document/9237315)  
+  Etienne Boespflug, Cristian Ene, Laurent Mounier, Marie-Laure Potet  
+  Workshop on Fault Detection and Tolerance in Cryptography (FDTC 2020)  
+  September 13, 2020, Virtual Event
+
 1. [Analyzing System Software Components Using API Model Guided Symbolic Execution](https://link.springer.com/article/10.1007/s10515-020-00276-5)  
   Tuba Yavuz, Ken (Yihang) Bai  
   Automated Software Engineering (AUSE)  
@@ -1157,6 +1169,12 @@ Solving Once](https://www.semanticscholar.org/paper/Multiplex-Symbolic-Execution
   IEEE International Conference on Software Quality, Reliability and Security (QRS 2020)  
   Dezember 11-14, 2020, Macau, China
 
+1. [Automated Patch Transplantation](https://dl.acm.org/doi/10.1145/3412376)  
+  Ridwan Shariffdeen, Shin Hwei Tan, Mingyuan Gao, Abhik Roychoudhury  
+  ACM Transactions on Software Engineering and Methodology, Volume 30, Issue 1 (TOSEM)  
+  January 2021  
+  **PatchWeave is available [here](https://patchweave.github.io/).**
+
 1. [Beyond Tests: Program Vulnerability Repair via Crash Constraint Extraction](https://dl.acm.org/doi/abs/10.1145/3418461)  
   Xiang Gao, Bo Wang, Gregory J. Duck, Ruyi Ji, Yingfei Xiong, Abhik Roychoudhury  
   ACM Transactions on Software Engineering and Methodology, Volume 30, Issue 2 (TOSEM)  
@@ -1196,11 +1214,17 @@ Solving Once](https://www.semanticscholar.org/paper/Multiplex-Symbolic-Execution
   IEEE Transactions on Reliability, Volume 70, Issue 3  
   May 26, 2021
 
-1. [Concolic Program Repair](https://cpr-tool.github.io/PLDI21.pdf)  
+1. [Concolic Program Repair](https://dl.acm.org/doi/10.1145/3453483.3454051)  
   Ridwan Salihin Shariffdeen, Yannic Noller, Lars Grunske, Abhik Roychoudhury  
   ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2021)  
   June 20-26, 2021, Virtual Event    
   **The artefact is available [here](https://cpr-tool.github.io/).**
+
+1. [Execution Reconstruction: Harnessing Failure Reoccurrences for Failure Reproduction](https://dl.acm.org/doi/abs/10.1145/3453483.3454101)  
+  Gefei Zuo, Jiacheng Ma, Andrew Quinn, Pramod Bhatotia, Pedro Fonseca, Baris Kasikci  
+  ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2021)  
+  June 20-26, 2021, Virtual Event    
+  **The artefact is available [here](https://doi.org/10.5281/zenodo.4678015).**
 
 1. [FCEP: A Fast Concolic Execution for Reaching Software Patches](https://ksiresearch.org/seke/seke21paper/paper018.pdf)  
   Meng Fan, Wenzhi Wang, Aimin Yu, Dan Meng  
@@ -1215,6 +1239,11 @@ Solving Once](https://www.semanticscholar.org/paper/Multiplex-Symbolic-Execution
 
 1. [Automatic Firmware Emulation through Invalidity-guided Knowledge Inference](https://www.usenix.org/conference/usenixsecurity21/presentation/zhou)  
   Wei Zhou, Le Guan, Peng Liu, Yuqing Zhang  
+  USENIX Security Symposium (Security 2021)  
+  August 11-13, 2021, Virtual Event
+
+1. [MAZE: Towards Automated Heap Feng Shui](https://www.usenix.org/conference/usenixsecurity21/presentation/wang-yan)  
+  Yan Wang, Chao Zhang, Zixuan Zhao, Bolun Zhang, Xiaorui Gong, Wei Zou  
   USENIX Security Symposium (Security 2021)  
   August 11-13, 2021, Virtual Event
 
@@ -1268,7 +1297,118 @@ Solving Once](https://www.semanticscholar.org/paper/Multiplex-Symbolic-Execution
   October 18-20, 2021, Virtual Event  
   **The implementation is available [here](https://github.com/Adacore/Http_Cyclone).**
 
+1. [Trident: Controlling Side Effects in Automated Program Repair](https://ieeexplore.ieee.org/document/9611365)  
+  Nikhil Parasaram, Earl T. Barr, Sergey Mechtaev  
+  IEEE Transactions on Software Engineering (TSE 2022)  
+  November 13, 2021
+
 1. [Learning to Explore Paths for Symbolic Execution](https://files.sri.inf.ethz.ch/website/papers/ccs21-learch.pdf)  
   Jingxuan He, Gishor Sivanrupan, Petar Tsankov, Martin Vechev  
   ACM Conference on Computer and Communications Security (CCS 2021)  
   November 15-19, 2021, Virtual Event
+
+1. [Function Exclusion in Automated Security Patch Testing Using Chopped Symbolic Execution](http://researchonline.ljmu.ac.uk/id/eprint/16037/)  
+  Phan Ninh Thai, Hung Nguyen Viet, Nathan Shone, Mikhail Babenko  
+  NAFOSTED Conference on Information and Computer Science (NICS 2021)  
+  December 21-22, 2021, Hanoi City, Vietnam
+
+1. [EXGEN: Cross-platform, Automated Exploit Generation for Smart Contract Vulnerabilities](https://ieeexplore.ieee.org/abstract/document/9674230)  
+  Ling Jin, Yinzhi Cao, Yan Chen, Di Zhang, Simone Campanoni  
+  IEEE Transactions on Dependable and Secure Computing (TDSC)  
+  January 7, 2022
+
+1. [FIRVER: Concolic Testing for Systematic Validation of Firmware Binaries](http://sandip.ece.ufl.edu/publications/aspdac22.pdf)  
+  Tashfia Alam, Zhenkun Yang, Bo Chen, Nicholas Armour, Sandip Ray  
+  Asia and South Pacific Design Automation Conference (ASP-DAC 2022)  
+  January 17-20, 2022, Virtual Event
+
+1. [The Taming of the Stack: Isolating Stack Data from Memory Errors](https://www.ndss-symposium.org/wp-content/uploads/2022-60-paper.pdf)  
+  Kaiming Huang, Yongzhe Huang, Mathias Payer, Zhiyun Qian, Jack Sampson, Gang Tan, Trent Jaeger  
+  Network and Distributed System Security Symposium (NDSS 2022)  
+  February 27 - March 3, 2022, San Diego, USA
+
+1. [Characterizing and Improving Bug-Finders with Synthetic Bugs](https://messlab.moyix.net/papers/evalklee_saner22.pdf)  
+  Yu Hu, Zekun Shen, Brendan Dolan-Gavitt  
+  IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2020)  
+  March 15-18, 2022, Virtual Event
+
+1. [SymEx-VP: An Open Source Virtual Prototype for OS-agnostic Concolic Testing of IoT Firmware](https://www.sciencedirect.com/science/article/pii/S1383762122000480)  
+  Sören Tempel, Vladimir Herdt, Rolf Drechsler  
+  Journal of Systems Architecture (JSA)  
+  16 March, 2022
+
+1. [Efficient Protocol Testing Under Temporal Uncertain Event Using Discrete-event Network Simulations](https://dl.acm.org/doi/abs/10.1145/3490028)  
+  Minh Vu, Lisong Xu, Sebastian Elbaum, Wei Sun, Kevin Qiao  
+  ACM Transactions on Modeling and Computer Simulation, Volume 32, Issue 2 (TOMACS)  
+  April, 2022
+
+1. [DivSIM, an Interactive Simulator for LLVM Bitcode](https://link.springer.com/article/10.1007/s10009-022-00659-x)  
+  Petr Ročkai, Jiří Barnat  
+  International Journal on Software Tools for Technology Transfer (2022)  
+  April 1, 2022  
+  **DivSim is part of [DIVINE 4](https://divine.fi.muni.cz/download.html).**
+
+1. [SIFT: A Tool for Property Directed Symbolic
+Execution of Multithreaded Software](https://tuba.ece.ufl.edu/wp-content/uploads/sites/37/2022/04/sift.pdf)  
+  Tuba Yavuz  
+  IEEE International Conference on Software Testing, Verification and Validation (ICST 2022)  
+  April 4-8, 2022, Virtual Event
+
+1. [Applying Symbolic Execution to Test Implementations of a Network Protocol Against its Specification](https://ieeexplore.ieee.org/document/9787883)  
+  Hooman Asadian, Paul Fiterau-Brostean, Bengt Jonsson, and Konstantinos Sagonas  
+  IEEE International Conference on Software Testing, Verification and Validation (ICST 2022)  
+  April 4-13, 2022, Virtual Event  
+  **The artefact is available [here](https://zenodo.org/record/5929867#.YgZF74zMLmE).**
+
+1. [Automating Differential Testing with Overapproximate Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/9787827)  
+  Richard Rutledge, Alessandro Orso  
+  IEEE International Conference on Software Testing, Verification and Validation (ICST 2022)  
+  April 4-13, 2022, Virtual Event  
+
+1. [Argon: A Toolbase for Evaluating Software Protection Techniques Against Symbolic Execution Attacks](https://doi.org/10.1109/SoutheastCon48659.2022.9764028)  
+  Deepak Adhikari, J. Todd McDonald, Todd R. Andel, Joseph D. Richardson  
+  IEEE SoutheastCon 2022  
+  April 13-16, 2022, Orlando, USA  
+  **Argon is available [here](https://github.com/elm3nt/argon-cli/).**
+  
+1. [Symbolic Identification of Shared Memory Based Bank Conflicts for GPUs](https://doi.org/10.1016/j.sysarc.2022.102518)  
+  Adrian Horga, Ahmed Rezine, Sudipta Chattopadhyay, Petru Eles, Zebo Peng  
+  Journal of Systems Architecture (JSA)  
+  April 20, 2022
+
+1. [SymTuner: Maximizing the Power of Symbolic Execution by Adaptively Tuning External Parameters](https://ieeexplore.ieee.org/abstract/document/9794116)  
+  Sooyoung Cha, Myungho Lee, Seokhyun Lee, Hakjoo Oh  
+  ACM/IEEE International Conference on Software Engineering (ICSE 2022)  
+  May 8-10, 2022, Virtual Event; May 22-27, 2022, Pittsburgh, USA
+
+1. [A Deterministic Memory Allocator for Dynamic Symbolic Execution](https://srg.doc.ic.ac.uk/files/papers/kdalloc-ecoop-22.pdf)  
+  Daniel Schemmel, Julian Büning, Frank Busse, Martin Nowack, Cristian Cadar  
+  European Conference on Object-Oriented Programming (ECOOP 2022)  
+  June 8-10, 2022, Berlin, Germany
+
+1. [Verifying SystemC TLM Peripherals using Modern C++ Symbolic Execution Tools](https://www.ics.jku.at/files/2022DAC_Verifying-SystemC-TLM-Peripherals-using-SymEx.pdf)  
+  Pascal Pieper, Vladimir Herdt, Daniel Große, Rolf Drechsler  
+  Design Automation Conference (DAC 2022)  
+  July 10-14, San Francisco, USA
+
+1. [Combining Static Analysis Error Traces with Dynamic Symbolic Execution (Experience Paper)](https://srg.doc.ic.ac.uk/files/papers/sa-dse-issta-22.pdf)  
+  Frank Busse, Pritam Gharat, Cristian Cadar, Alastair Donaldson  
+  ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2022)  
+  July 18-22, Virtual Event  
+  **The artefact is available [here](https://srg.doc.ic.ac.uk/projects/klee-sa/artifact.html).**
+
+1. [Semantic-Aware Vulnerability Detection](https://facsrv.cs.depaul.edu/zhuang28/Semantic_Aware_Vulnerability_Detection.pdf)  
+  Zhen Huang, Marc White  
+  IEEE International Conference on Cyber Security and Resilience (CSR 2022)  
+  July 27-29, Virtual Event
+
+1. [LinKRID: Vetting Imbalance Reference Counting in Linux Kernel with Symbolic Execution](https://www.usenix.org/system/files/sec22summer_liu-jian.pdf)  
+  Jian Liu, Lin Yi, Weiting Chen, Chengyu Song, Zhiyun Qian, Qiuping Yi  
+  USENIX Security Symposium (Security 2022)  
+  August, 10-12, 2022, Boston, USA
+
+1. [FastKLEE: Faster Symbolic Execution via Reducing Redundant Bound Checking of Type-Safe Pointers](https://haoxintu.github.io/files/fse2022-demo-camera-ready.pdf)  
+  Haoxin Tu, Lingxiao Jiang, Xuhua Ding, He Jiang  
+  ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022 Demo)  
+  November, 14-16, 2022, Singapore  
+  **FastKLEE is available [here](https://github.com/haoxintu/FastKLEE).**
