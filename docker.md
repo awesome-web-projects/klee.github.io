@@ -10,8 +10,8 @@ Assuming you have Docker installed, you can run the following to try
 the latest release of KLEE:
 
 ```bash
-$ docker pull klee/klee:2.3
-$ docker run --rm -ti --ulimit='stack=-1:-1' klee/klee:2.3
+$ docker pull klee/klee:3.0
+$ docker run --rm -ti --ulimit='stack=-1:-1' klee/klee:3.0
 ```
 
 # What is Docker?
@@ -45,7 +45,7 @@ If you want to use a tagged revision of KLEE you should instead run:
 $ docker pull klee/klee:<TAG>
 ```
 
-Where ``<TAG>`` is [one of the tags listed on the DockerHub](https://hub.docker.com/r/klee/klee/tags/). Typically this is either ``latest`` (corresponds to the ``master`` branch) or a version number (e.g. ``2.1``).
+Where ``<TAG>`` is [one of the tags listed on the DockerHub](https://hub.docker.com/r/klee/klee/tags/). Typically this is either ``latest`` (corresponds to the ``master`` branch) or a version number (e.g. ``2.3``).
 
 **Note this process pulls images containing code compiled by a third-party service. We do not accept responsibility for the contents of the image.**
 
@@ -80,7 +80,6 @@ If this worked correctly your shell prompt will have changed and you will be the
 ```bash
 klee@3c098b05ca85:~$ whoami
 klee
-klee@3c098b05ca85:~$
 ```
 
 You can now try running KLEE inside the container, where you should
@@ -88,12 +87,12 @@ see an output similar to:
 
 ```bash
 klee@3c098b05ca85:~$ klee --version
-KLEE 2.1 (https://klee.github.io)
-  Build mode: RelWithDebInfo (Asserts: ON)
-  Build revision: 938434b2521d4c1ec11af31f1e5e5fbafd2cb2cd
+KLEE 3.0 (https://klee.github.io)
+  Build mode: RelWithDebInfo (Asserts: TRUE)
+  Build revision: dfa53ed4f5711ee2d378abb267bff1da8623f7e7
 
 LLVM (http://llvm.org/):
-  LLVM version 6.0.1
+  LLVM version 13.0.1
   Optimized build with assertions.
   Default target: x86_64-unknown-linux-gnu
   Host CPU: skylake
@@ -103,10 +102,10 @@ and Clang
 
 ```bash
 $ clang --version
-clang version 6.0.1 (branches/release_60 355598)
+clang version 13.0.1 (https://github.com/llvm/llvm-project.git 75e33f71c2dae584b13a7d1186ae0a038ba98838)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
-InstalledDir: /tmp/llvm-60-install_O_D_A/bin
+InstalledDir: /tmp/llvm-130-install_O_D_A/bin
 ```
 
 Now exit the container
@@ -139,15 +138,19 @@ klee@3c098b05ca85:~$ pwd
 klee@3c098b05ca85:~$ echo "int main(int argn, char** argv) { return 0; }" > test.c
 klee@3c098b05ca85:~$ clang -emit-llvm -g -c test.c -o test.bc
 klee@3c098b05ca85:~$ klee --libc=uclibc --posix-runtime test.bc
-KLEE: NOTE: Using klee-uclibc : /home/klee/klee_build/klee/Release+Asserts/lib/klee-uclibc.bca
-KLEE: NOTE: Using model: /home/klee/klee_build/klee/Release+Asserts/lib/libkleeRuntimePOSIX.bca
+KLEE: NOTE: Using POSIX model: /tmp/klee_build130stp_z3/runtime/lib/libkleeRuntimePOSIX64_Debug+Asserts.bca
+KLEE: NOTE: Using klee-uclibc : /tmp/klee_build130stp_z3/runtime/lib/klee-uclibc.bca
 KLEE: output directory is "/home/klee/klee-out-0"
-KLEE: WARNING: undefined reference to function: klee_posix_prefer_cex
-KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 44070352)
-KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: Using STP solver backend
+KLEE: SAT solver: MiniSat
+...
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94351770473248) at klee_src/runtime/POSIX/fd.c:1011 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling __klee_posix_wrapped_main with extra arguments.
 
-KLEE: done: total instructions = 5047
+KLEE: done: total instructions = 13172
 KLEE: done: completed paths = 1
+KLEE: done: partially completed paths = 0
 KLEE: done: generated tests = 1
 klee@3c098b05ca85:~$ ls
 klee-last  klee-out-0  klee_build  klee_src  test.bc  test.c
@@ -190,10 +193,10 @@ to remove it.
 
 There are a few useful things to know about KLEE Docker containers created using the KLEE Docker image.
 
-* The Docker image is based on an Ubuntu 18.04 LTS image.
+* The Docker image is based on an Ubuntu 22.04 LTS image.
 * Inside the Docker image the ``klee`` user has sudo access (password is ``klee``) so that you can install other applications inside the container (e.g. a text editor). Given that the default user has sudo access this image **should never be used in a production environment**.
 * You may want files on your native filesystem available in the container. By default the host filesystem is not visible inside the container.  You can use the ``--volume=`` option to ``docker run`` to mount directories on the host filesystem into the container.
-* These Docker images use LLVM 6.0 so you need to use ``clang`` to create LLVM bitcode.
+* These Docker images use LLVM 13.0 so you need to use ``clang`` to create LLVM bitcode.
 * ``/home/klee/klee_src`` contains the source code used to build KLEE.
 * ``/home/klee/klee_build`` contains the build of KLEE built from ``/home/klee/klee_src``
 * All the previous examples implicitly run ``/bin/bash`` inside the container. This is the default but it is also possible to run KLEE directly (useful for scripting) by specifying the command line to use to ``docker run``.

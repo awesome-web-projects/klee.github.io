@@ -22,14 +22,8 @@
     <li{% if page.slug == "documentation" %} class="active"{% endif %}>
       <a href="{{ site.baseurl }}/docs">Documentation</a>
     </li>
-    <li{% if page.slug == "tutorials" %} class="active"{% endif %}>
-      <a href="{{ site.baseurl }}/tutorials">Tutorials</a>
-    </li>
     <li{% if page.slug == "publications" %} class="active"{% endif %}>
       <a href="{{ site.baseurl }}/publications">Publications</a>
-    </li>
-    <li{% if page.slug == "projects" %} class="active"{% endif %}>
-      <a href="{{ site.baseurl }}/projects">Projects</a>
     </li>
     <li{% if page.slug == "getting-involved" %} class="active"{% endif %}>
       <a href="{{ site.baseurl }}/getting-involved">Getting Involved</a>
@@ -42,6 +36,9 @@
     {% else %}
     <li{% if page.slug == "releases" %} class="active"{% endif %}>
       <a href="{{ site.baseurl }}/releases">Releases</a>
+    </li>
+    <li{% if page.slug == "support" %} class="active"{% endif %}>
+      <a href="{{ site.baseurl }}/support">Support</a>
     </li>
     {% endif %}
   </ul>

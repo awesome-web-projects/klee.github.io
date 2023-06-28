@@ -41,17 +41,17 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   April 12-16, 2010, Stockholm, Sweden  
   **KleeNet is available [here](https://www.comsys.rwth-aachen.de/research/past-projects/kleenet/).**
 
-1. [Execution Synthesis: A Technique for Automated Software Debugging](http://dslab.epfl.ch/pubs/esd.pdf)  
+1. [Execution Synthesis: A Technique for Automated Software Debugging](https://dslab.epfl.ch/pubs/esd.pdf)  
   Cristian Zamfir, George Candea  
   ACM SIGOPS/EuroSys European Conference on Computer Systems (EuroSys 2010)  
   April 13-16, 2010, Paris, France
 
-1. [Reverse Engineering of Binary Device Drivers with RevNIC](http://dslab.epfl.ch/pubs/revnic.pdf)  
+1. [Reverse Engineering of Binary Device Drivers with RevNIC](https://dslab.epfl.ch/pubs/revnic.pdf)  
   Vitaly Chipounov, George Candea  
   ACM SIGOPS/EuroSys European Conference on Computer Systems (EuroSys 2010)  
   April 13-16, 2010, Paris, France
 
-1. [Testing Closed-Source Binary Device Drivers with DDT](http://dslab.epfl.ch/pubs/ddt.pdf)  
+1. [Testing Closed-Source Binary Device Drivers with DDT](https://dslab.epfl.ch/pubs/ddt.pdf)  
   Volodymyr Kuznetsov, Vitaly Chipounov, George Candea  
   USENIX Annual Technical Conference (USENIX ATC 2010)  
   June 22-25, 2010, Boston, MA, USA
@@ -61,12 +61,12 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   USENIX Symposium on Operating Systems Design and Implementation (OSDI 2010)  
   October 4-6, 2010, Vancouver, BC, Canada
 
-1. [AEG: Automatic Exploit Generation](http://security.ece.cmu.edu/aeg/aeg-ndss-2011.pdf)  
+1. [AEG: Automatic Exploit Generation](https://security.ece.cmu.edu/aeg/aeg-ndss-2011.pdf)  
   Thanassis Avgerinos, Sang Kil Cha, Brent Lim Tze Hao, David Brumley  
   Network and Distributed System Security Symposium (NDSS 2011)  
   February 6-9, 2011, San Diego, CA, USA
 
-1. [Howard: A Dynamic Excavator for Reverse Engineering Data Structures](http://www.cs.vu.nl/%7Eherbertb/papers/dde_ndss11-preprint.pdf)  
+1. [Howard: A Dynamic Excavator for Reverse Engineering Data Structures](https://www.cs.vu.nl/~herbertb/papers/howard_ndss11.pdf)  
   Asia Slowinska, Traian Stancescu, Herbert Bos  
   Network and Distributed System Security Symposium (NDSS 2011)  
   February 6-9, 2011, San Diego, CA, USA
@@ -76,13 +76,13 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   International Symposium on Engineering Secure Software and Systems (ESSoS 2011)  
   February 9-10, 2011, Madrid, Spain
 
-1. [S2E: A Platform for In Vivo Multi-Path Analysis of Software Systems](http://dslab.epfl.ch/pubs/s2e.pdf?attredirects=0)  
+1. [S2E: A Platform for In Vivo Multi-Path Analysis of Software Systems](https://dslab.epfl.ch/pubs/s2e.pdf?attredirects=0)  
   Vitaly Chipounov, Volodymyr Kuznetsov, George Candea  
   International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2011)  
   March 5-11, 2011, Newport Beach, CA  
   **S2E is available at [EPFL](http://s2e.epfl.ch/) and [GitHub](https://github.com/S2E/).**
 
-1. [Parallel Symbolic Execution for Automated Real-World Software Testing](http://dslab.epfl.ch/pubs/cloud9.pdf?attredirects=0)  
+1. [Parallel Symbolic Execution for Automated Real-World Software Testing](https://dslab.epfl.ch/pubs/cloud9.pdf?attredirects=0)  
   Stefan Bucur, Vlad Ureche, Cristian Zamfir, George Candea  
   ACM SIGOPS/EuroSys European Conference on Computer Systems (EuroSys 2011)  
   April 10-13, 2011, Salzburg, Austria  
@@ -133,7 +133,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   Haifa Verification Conference (HVC 2011)  
   December 6-8, 2011, Haifa, Israel
 
-1. [GKLEE: Concolic Verification and Test Generation for GPUs](http://formalverification.cs.utah.edu/pdf/PPoPP12-GKLEE-Extended-Version.pdf)  
+1. [GKLEE: Concolic Verification and Test Generation for GPUs](http://formalverification.cs.utah.edu/GKLEE/papers/gklee_tr.pdf)  
   Guodong Li, Peng Li, Geof Sawaya, Ganesh Gopalakrishnan, Indradeep Ghosh, Sreeranga P. Rajan  
   ACM Symposium on Principles and Practice of Parallel Programming (PPoPP 2012)  
   February 25-29, 2012, New Orleans, LA, USA  
@@ -166,12 +166,12 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   June 2-9, 2012, Zurich, Switzerland  
   **BugRedux is available [here](https://github.com/gatech/bugredux).**  
 
-1. [Industrial Application of Concolic Testing Approach: A Case Study on libexif by Using CREST-BV and KLEE](http://ieeexplore.ieee.org/document/6227105/)  
+1. [Industrial Application of Concolic Testing Approach: A Case Study on libexif by Using CREST-BV and KLEE](https://ieeexplore.ieee.org/document/6227105/)  
   Yunho Kim, Moonzoo Kim, YoungJoo Kim, Yoonkyu Jang  
   ACM/IEEE International Conference on Software Engineering (ICSE 2012)  
   June 2-9, 2012, Zurich, Switzerland
 
-1. [Efficient State Merging in Symbolic Execution](http://dslab.epfl.ch/pubs/stateMerging.pdf)  
+1. [Efficient State Merging in Symbolic Execution](https://dslab.epfl.ch/pubs/stateMerging.pdf)  
   Volodymyr Kuznetsov, Johannes Kinder, Stefan Bucur, George Candea  
   ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2012)  
   June 11-16, 2012, Beijing, China
@@ -181,7 +181,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   In: Giese H., Rosu G. (eds) Formal Techniques for Distributed Systems. Lecture Notes in Computer Science, vol 7273. Springer, Berlin, Heidelberg (FMOODS/FORTE 2012)  
   June 13-16, 2012, Stockholm, Sweden
 
-1. [CRAX: Software Crash Analysis for Automatic Exploit Generation by Modeling Attacks as Symbolic Continuations](http://ieeexplore.ieee.org/abstract/document/6258297/)  
+1. [CRAX: Software Crash Analysis for Automatic Exploit Generation by Modeling Attacks as Symbolic Continuations](https://ieeexplore.ieee.org/abstract/document/6258297/)  
   Shih-Kun Huang, Min-Hsiang Huang, Po-Yen Huang, Chung-Wei Lai, Han-Lin Lu, Wai-Meng Leong  
   International Conference on Software Security and Reliability (SERE 2012)  
   June 20-22, 2012, Gaithersburg, USA
@@ -191,7 +191,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   International SPIN Workshop on Model Checking of Software (SPIN 2012)  
   July 23-24, 2012, Oxford, UK
 
-1. [Checking Properties Described by State Machines: On Synergy of Instrumentation, Slicing, and Symbolic Execution](http://is.muni.cz/repo/984069/sse.pdf)  
+1. [Checking Properties Described by State Machines: On Synergy of Instrumentation, Slicing, and Symbolic Execution](https://is.muni.cz/repo/984069/sse.pdf)  
   Jiri Slaby, Jan Strejcek, Marek Trtík  
   International Workshop on Formal Methods for Industrial Critical Systems (FMICS 2012)  
   August 27-28, 2012, Paris, France
@@ -216,7 +216,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   International Conference on Information and Communications Security (ICICS 2012)  
   October 29-31, 2012, Hong Kong, China
 
-1. [Enhancing Symbolic Execution to Test the Compatibility of Re-engineered Industrial Software](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6462670)  
+1. [Enhancing Symbolic Execution to Test the Compatibility of Re-engineered Industrial Software](https://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6462670)  
   Susumu Tokumoto, Tadahiro Uehara, Kazuki Munakata, Haruyuki Ishida, Toru Eguchi, Masafumi Baba  
   Asia-Pacific Software Engineering Conference (APSEC 2012)  
   December 4-7, 2012, Hong Kong, China
@@ -263,7 +263,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2013)  
   June 16-22, 2013, Seattle, WA, USA  
 
-1. [CRAXweb: Automatic Web Application Testing and Attack Generation](http://ieeexplore.ieee.org/document/6571711/)  
+1. [CRAXweb: Automatic Web Application Testing and Attack Generation](https://ieeexplore.ieee.org/document/6571711/)  
   Shih-Kun Huang, Han-Lin Lu, Wai-Meng Leong, Huan Liu  
   International Conference on Software Security and Reliability (SERE 2013)  
   June 18-20, 2013, Gaithersburg, USA
@@ -289,7 +289,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   July 13-19, 2013, St Petersburg, Russia  
   **KLEE-Multisolver is available [here](https://srg.doc.ic.ac.uk/projects/klee-multisolver/).**
 
-1. [F3: Fault Localization for Field Failures](https://ai2-s2-pdfs.s3.amazonaws.com/15c8/9fcd08f82da14b98c94449b6c396e1e4423a.pdf)  
+1. [F3: Fault Localization for Field Failures](https://dl.acm.org/doi/10.1145/2483760.2483763)  
   Wei Jin, Alessandro Orso  
   International Symposium on Software Testing and Analysis (ISSTA 2013)  
   July 15-20, 2013, Lugano, Switzerland  
@@ -314,7 +314,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2013)  
   August 18-26, 2013, St Petersburg, Russia
 
-1. [Symbolic Software Model Validation](http://ieeexplore.ieee.org/document/6670946/)  
+1. [Symbolic Software Model Validation](https://ieeexplore.ieee.org/document/6670946/)  
   Cynthia Sturton, Rohit Sinha, Thurston H.Y. Dang, Sakshi Jain, Michael McCoyd, Wei Yang Tan, Petros Maniatis, Sanjit A. Seshia, David Wagner  
   ACM/IEEE International Conference on Formal Methods and Models for System Design (MEMOCON 2013)  
   October 18-20, 2013, Portland, USA
@@ -344,7 +344,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   IEEE/ACM International Conference on Computer-aided Design (ICCAD 2013)  
   November 18-21, 2013, San Jose, CA, USA
 
-1. [Static Analysis Driven Cache Performance Testing](http://ieeexplore.ieee.org/abstract/document/6728886/)  
+1. [Static Analysis Driven Cache Performance Testing](https://ieeexplore.ieee.org/abstract/document/6728886/)  
   Abhijeet Banerjee, Sudipta Chattopadhyay, Abhik Roychoudhury  
   IEEE Real-Time Systems Symposium (RTSS 2013)  
   December 3-6, 2013, Vancouver, CA
@@ -353,7 +353,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   Jonas Zaddach, Luca Bruno, Aurelien Francillon, Davide Balzarotti  
   Network and Distributed System Security Symposium (NDSS 2014)  
   February 23-36, 2014, San Diego, USA  
-  **Avatar is available [here](http://s3.eurecom.fr/tools/avatar/).**
+  **Avatar is available [here](https://s3.eurecom.fr/tools/avatar/).**
 
 1. [Conflict-Driven Symbolic Execution](http://hdl.handle.net/2429/46226)  
   Celina Gomes do Val  
@@ -366,12 +366,12 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   IEEE International Conference on Software Testing, Verification and Validation (ICST 2014)  
   March 31 - April 4, 2014, Cleveland, USA
 
-1. [Reproducing Field Failures for Programs with Complex Grammar-Based Input](http://ieeexplore.ieee.org/document/6823878/)  
+1. [Reproducing Field Failures for Programs with Complex Grammar-Based Input](https://ieeexplore.ieee.org/document/6823878/)  
   Fitsum Meshesha Kifetew, Wei Jin, Roberto Tiella, Alessandro Orso, Paolo Tonella  
   IEEE International Conference on Software Testing, Verification and Validation (ICST 2014)  
   March 31 - April 4, 2014, Cleveland, USA
 
-1. [Automated Testcase Generation for Numerical Support Functions in Embedded Systems](https://ti.arc.nasa.gov/publications/13554/download/)  
+1. [Automated Testcase Generation for Numerical Support Functions in Embedded Systems](https://link.springer.com/chapter/10.1007/978-3-319-06200-6_20)  
   Johann Schumann, Stefan-Alexander Schneider  
   International Symposium on NASA Formal Methods (NFM 2014)  
   April 29 - May 1, 2014, Houston, TX, USA
@@ -385,10 +385,15 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   Chaoqiang Zhang, Alex Groce, Mohammad Amin Alipour  
   July 21-25, 2014, San Jose, USA
 
-1. [Practical Use of Formal Verification for Safety Critical Cyber-Physical Systems: A Case Study](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6961235)  
+1. [Practical Use of Formal Verification for Safety Critical Cyber-Physical Systems: A Case Study](https://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6961235)  
   Tasuku Ishigooka, Habib Saissi, Thorsten Piper, Stefan Winter, Neeraj Suri  
   IEEE International Conference on Cyber-Physical Systems, Networks, and Applications (CPSNA 2014)  
   August 25-26, 2014, Hong Kong, China
+
+1. [8Cage: Lightweight Fault-based Test Generation for Simulink](https://dl.acm.org/doi/10.1145/2642937.2648622)  
+  Dominik Holling, Alexander Pretschner, Matthias Gemmar  
+  IEEE/ACM International Conference on Automated Software Engineering (ASE 2014)  
+  September 15-19, 2014, Vasteras, Sweden
 
 1. [Docovery: Toward Generic Automatic Document Recovery](https://srg.doc.ic.ac.uk/publications/docovery-ase-14.html)  
   Tomasz Kuchta, Cristian Cadar, Miguel Castro, Manuel Costa  
@@ -406,12 +411,12 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   IEEE/ACM International Conference on Automated Software Engineering (ASE 2014)  
   September 15-19, 2014, Vasteras, Sweden
 
-1. [Control Flow Obfuscation using Neural Network to Fight Concolic Testing](http://ink.library.smu.edu.sg/sis_research/2260/)  
+1. [Control Flow Obfuscation using Neural Network to Fight Concolic Testing](https://ink.library.smu.edu.sg/sis_research/2260/)  
   Haoyu Ma, Xinjie Ma, Weijie Liu, Zhipeng Huang, Debin GAO, Chunfu Jia  
   International Conference on Security and Privacy in Communication Networks (SecureComm 2014)  
   September 24-26, 2014, Beijing, China
 
-1. [Automated Software Testing of Memory Performance in Embedded GPUs](http://ieeexplore.ieee.org/abstract/document/6986125/)  
+1. [Automated Software Testing of Memory Performance in Embedded GPUs](https://ieeexplore.ieee.org/abstract/document/6986125/)  
   Sudipta Chattopadhyay, Petru Eles, Zebo Peng  
   International Conference on Embedded Software (EMSOFT 2014)  
   October 12-17, 2014, Jaypee Greens, India
@@ -446,7 +451,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   ACM Conference on Data and Application Security and Privacy (CODASPY 2015)  
   March 2-4, 2015, San Antonio, USA
 
-1. [Postconditioned Symbolic Execution](http://www-bcf.usc.edu/~wang626/pubDOC/YiYGWLZ15.pdf)  
+1. [Postconditioned Symbolic Execution](https://ieeexplore.ieee.org/document/7102601)  
   Qiuping Yi, Zijiang Yang, Shengjian Guo, Chao Wang, Jian Liu, Chen Zhao  
   IEEE International Conference on Software Testing, Verification and Validation (ICST 2015)  
   April 13-17, 2015, Graz, Austria  
@@ -532,27 +537,27 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   Haifa Verification Conference (HVC 2015)  
   November 17-19, 2015, Haifa, Israel
 
-1. [Studying the Influence of Standard Compiler Optimizations on Symbolic Execution](http://ieeexplore.ieee.org/abstract/document/7381814/)  
+1. [Studying the Influence of Standard Compiler Optimizations on Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/7381814/)  
   Shiyu Dong, Oswaldo Olivo, Lingming Zhang, Sarfraz Khurshid  
   IEEE International Symposium on Software Reliability Engineering (ISSRE 2015)  
   November 2-5, 2015, Gaithersbury, MD, USA
 
-1. [Generating High Coverage Tests for SystemC Designs Using Symbolic Execution](http://ieeexplore.ieee.org/abstract/document/7428006/)  
+1. [Generating High Coverage Tests for SystemC Designs Using Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/7428006/)  
   Bin Lin, Zhenkun Yang, Kai Cong, Fei Xie  
   Asia and South Pacific  Design Automation Conference (ASP-DAC 2016)  
   January 25-28, 2016, Macau, China
 
-1. [Profiting from Unit Tests for Integration Testing](http://ieeexplore.ieee.org/abstract/document/7515486/)  
+1. [Profiting from Unit Tests for Integration Testing](https://ieeexplore.ieee.org/abstract/document/7515486/)  
   Dominik Holling, Andreas Hofbauer, Alexander Pretschner, Matthias Gemmar  
   IEEE International Conference on Software Testing, Verification and Validation (ICST 2016)  
   April 11-15, 2016, Chicago, IL, USA
 
-1. [Nequivack: Assessing Mutation Score Confidence](http://ieeexplore.ieee.org/abstract/document/7528957/)  
+1. [Nequivack: Assessing Mutation Score Confidence](https://ieeexplore.ieee.org/abstract/document/7528957/)  
   Dominik Holling, Sebastian Banescu, Marco Probst, Ana Petrovska, Alexander Pretschner  
   IEEE International Conference on Software Testing, Verification and Validation (ICST 2016)  
   April 11-15, 2016, Chicago, IL, USA
 
-1. [Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis](http://www.comp.nus.edu.sg/~abhik/pdf/ICSE16-angelix.pdf)  
+1. [Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis](https://www.comp.nus.edu.sg/~abhik/pdf/ICSE16-angelix.pdf)  
   Sergey Mechtaev, Jooyong Yi, Abhik Roychoudhury  
   ACM/IEEE International Conference on Software Engineering (ICSE 2016)  
   May 14-22, 2016, Austin, Texas, USA  
@@ -564,12 +569,12 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   May 14-22, 2016, Austin, Texas, USA  
   **Shadow is available [here](https://srg.doc.ic.ac.uk/projects/shadow/).**
 
-1. [On the Techniques We Create, the Tools We Build, and Their Misalignments: A Study of KLEE](http://ieeexplore.ieee.org/abstract/document/7886898/)  
+1. [On the Techniques We Create, the Tools We Build, and Their Misalignments: A Study of KLEE](https://ieeexplore.ieee.org/abstract/document/7886898/)  
    Eric F. Rizzi, Sebastian Elbaum, Matthew B. Dwyer  
   ACM/IEEE International Conference on Software Engineering (ICSE 2016)  
   May 14-22, 2016, Austin, Texas, USA
 
-1. [Automatic Generation of High-coverage Tests for RTL Designs Using Software Techniques and Tools](http://ieeexplore.ieee.org/abstract/document/7603701/)  
+1. [Automatic Generation of High-coverage Tests for RTL Designs Using Software Techniques and Tools](https://ieeexplore.ieee.org/abstract/document/7603701/)  
   Yu Zhang, Wenlong Feng, Mengxing Huang  
   IEEE Conference on Industrial Electronics and Applications (ICIEA 2016)  
   June 5-7, 2016, Hefei, China
@@ -590,7 +595,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   IEEE/ACM International conference on Automated Software Engineering (ASE 2016)  
   September 3-7, 2016, Singapore, Singapore
 
-1. [MACKE: Compositional Analysis of Low-level Vulnerabilities with Symbolic Execution](http://ieeexplore.ieee.org/abstract/document/7582815/)  
+1. [MACKE: Compositional Analysis of Low-level Vulnerabilities with Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/7582815/)  
   Saahil Ognawala, Martín Ochoa, Alexander Pretschner, Tobias Limmer  
   IEEE/ACM International conference on Automated Software Engineering (ASE 2016)  
   September 3-7, 2016, Singapore, Singapore
@@ -605,7 +610,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2016)  
   October 2-3, 2016, Raleigh, NC, USA
 
-1. [Building Robust Distributed Systems and Network Protocols by Using Adversarial Testing and Behavioral Analysis](http://ieeexplore.ieee.org/abstract/document/7839807/)  
+1. [Building Robust Distributed Systems and Network Protocols by Using Adversarial Testing and Behavioral Analysis](https://ieeexplore.ieee.org/abstract/document/7839807/)  
   Endadul Hoque, Cristina Nita-Rotaru  
   IEEE Cybersecurity Development (SecDev 2016)  
   November 3-4, 2016, Boston, MA, USA
@@ -620,22 +625,22 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   Annual Computer Security Applications Conference (ACSAC 2015)  
   December 5-9, 2016, Los Angeles, USA
 
-1. [Eliminating Path Redundancy via Postconditioned Symbolic Execution](http://ieeexplore.ieee.org/abstract/document/7835264/)  
+1. [Eliminating Path Redundancy via Postconditioned Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/7835264/)  
   Qiuping Yi, Zijiang Yang, Shengjian Guo, Chao Wang, Jian Liu, Chen Zhao  
   IEEE Transactions on Software Engineering, Volume 44, Issue 99  
   January 26, 2017
 
-1. [Patch-related Vulnerability Detection Based on Symbolic Execution](http://ieeexplore.ieee.org/abstract/document/7867765/)  
+1. [Patch-related Vulnerability Detection Based on Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/7867765/)  
   Weizhong Qiang, Yuehua Liao, Guozhong Sun, Laurence T. Yang, Deqing Zou, Hai Jin  
   IEEE Access, vol. 5, no. 99  
   March 1, 2017
 
-1. [Case Study on LLVM as Suitable Intermediate Language for Binary Analysis](https://www.metallic.software/publications#casestudyonllvm)  
+1. [Case Study on LLVM as Suitable Intermediate Language for Binary Analysis](https://metallic.software/publications#casestudyonllvm)  
   Florian Märkl  
   Seminar "Reverse Code Engineering" Winter 2016/2017, Technische Universität München  
   March 22, 2017, Munich, Germany
 
-1. [Non-Semantics-Preserving Transformations for Higher-Coverage Test Generation Using Symbolic Execution](http://ieeexplore.ieee.org/abstract/document/7927979/)  
+1. [Non-Semantics-Preserving Transformations for Higher-Coverage Test Generation Using Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/7927979/)  
   Hayes Converse, Oswaldo Olivo, Sarfraz Khurshid  
   IEEE International Conference on Software Testing, Verification and Validation (ICST 2017)  
   March 13-17, 2017, Tokyo, Japan
@@ -644,6 +649,11 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   Xiaodong Zhang  
   IEEE International Conference on Software Testing, Verification and Validation (ICST 2017)  
   March 13-17, 2017, Tokyo, Japan
+
+1. [Directed Automated Memory Performance Testing](https://link.springer.com/chapter/10.1007/978-3-662-54580-5_3)  
+  Sudipta Chattopadhyay  
+  International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2017)  
+  April 24-28, 2017, Uppsala, Sweden
 
 1. [Bucketing Failing Tests via Symbolic Analysis](https://link.springer.com/chapter/10.1007/978-3-662-54494-5_3)  
   Van-Thuan Pham, Sakaar Khurana, Subhajit Roy, Abhik Roychoudhury  
@@ -660,17 +670,17 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   ACM/IEEE International Conference on Software Engineering (ICSE 2017)  
   May 20-28, 2017, Buenos Aires, Argentina
 
-1. [SymCerts: Practical Symbolic Execution for Exposing Noncompliance in X.509 Certificate Validation Implementations](http://ieeexplore.ieee.org/document/7958595/)  
+1. [SymCerts: Practical Symbolic Execution for Exposing Noncompliance in X.509 Certificate Validation Implementations](https://ieeexplore.ieee.org/document/7958595/)  
   Sze Yiu Chau, Omar Chowdhury, Endadul Hoque, Huangyi Ge, Aniket Kate, Cristina Nita-Rotaru, Ninghui Li  
   IEEE Symposium on Security and Privacy (S&P 2017)  
   May 22-24, 2017, San Jose, CA, USA
 
-1. [Analyzing Operational Behavior of Stateful Protocol Implementations for Detecting Semantic Bugs](http://ieeexplore.ieee.org/document/8023160/)  
+1. [Analyzing Operational Behavior of Stateful Protocol Implementations for Detecting Semantic Bugs](https://ieeexplore.ieee.org/document/8023160/)  
   Endadul Hoque, Omar Chowdhury, Sze Yiu Chau, Cristina Nita-Rotaru, Ninghui Li  
   IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2017)  
   June 26-29, 2017, Denver, CO, USA
 
-1. [pbSE: Phase-Based Symbolic Execution](http://ieeexplore.ieee.org/abstract/document/8023117/)  
+1. [pbSE: Phase-Based Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/8023117/)  
   Qixue Xiao, Yu Chen, Chengang Wu, Kang Li, Junjie Mao  
   IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2017)  
   June 26-29, 2017, Denver, CO, USA
@@ -721,7 +731,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar  
   arXiv, September 5, 2017
 
-1. [KLOVER: Automatic Test Generation for C and C++ Programs, Using Symbolic Execution](http://ieeexplore.ieee.org/abstract/document/8048666/)  
+1. [KLOVER: Automatic Test Generation for C and C++ Programs, Using Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/8048666/)  
   Guodong Li, Takuki Kamiya, Indradeep Ghosh, Sreeranga Rajan, Susumu Tokumoto, Kazuki Munakata, Tadahiro Uehara  
   IEEE Software, Volume 34, Issue 5  
   September 22, 2017
@@ -819,7 +829,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   July 14-17, 2018, Oxford, UK  
   **The implementation is available [here](https://github.com/COMSYS/SymbolicLivenessAnalysis/).**
 
-1. [Learning to Accelerate Symbolic Execution via Code Transformation](http://drops.dagstuhl.de/opus/volltexte/2018/9211/pdf/LIPIcs-ECOOP-2018-6.pdf)  
+1. [Learning to Accelerate Symbolic Execution via Code Transformation](https://drops.dagstuhl.de/opus/volltexte/2018/9211/pdf/LIPIcs-ECOOP-2018-6.pdf)  
   Junjie Chen, Wenxiang Hu, Lingming Zhang, Dan Hao, Sarfraz Khurshid, Lu Zhang  
   European Conference on Object-Oriented Programming (ECOOP 2018)  
   July 15-21, 2018, Amsterdam, Netherlands
@@ -866,7 +876,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   Workshop on Forming an Ecosystem Around Software Transformation (FEAST 2018)  
   October 19, 2018, Toronto, Canada
 
-1. [End-to-End Automated Exploit Generation for Validating the Security of Processor Designs](https://cs.unc.edu/~rzhang/files/MICRO2018.pdf)  
+1. [End-to-End Automated Exploit Generation for Validating the Security of Processor Designs](https://www.cs.unc.edu/~rzhang/files/MICRO2018.pdf)  
   Rui Zhang, Calvin Deutschbein, Peng Huang, Cynthia Sturton  
   IEEE/ACM International Symposium on Microarchitecture (MICRO 2018)  
   October 20-24, 2018, Fukuoka, Japan  
@@ -902,7 +912,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   Workshop on the Evolution, Performance, and Interoperability of QUIC (EPIQ 2018)  
   December 4, 2018, Heraklion, Greece
 
-1. [Boost Symbolic Execution Using Dynamic State Merging and Forking](http://ceur-ws.org/Vol-2273/QuASoQ-02.pdf)  
+1. [Boost Symbolic Execution Using Dynamic State Merging and Forking](https://ceur-ws.org/Vol-2273/QuASoQ-02.pdf)  
   Chao Zhang Weiliang Yin Zhiqiang Lin  
   International Workshop on Quantitative Approaches to Software Quality (QuASoQ 2018)  
   December 4, 2018, Nara, Japan
@@ -979,7 +989,7 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   August 26-30, 2019, Tallin, Estonia  
   **The implementation is available [here](https://github.com/kren1/klee/tree/segmented_mem7.0).**
 
-1. [Target-Driven Compositional Concolic Testing with Function Summary Refinement for Effective Bug Detection](http://swtv.kaist.ac.kr/publications/fse2019-focal.pdf)  
+1. [Target-Driven Compositional Concolic Testing with Function Summary Refinement for Effective Bug Detection](https://swtv.kaist.ac.kr/publications/fse2019-focal.pdf)  
   Yunho Kim, Shin Hong, Moonzoo Kim  
   ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2019)  
   August 26-30, 2019, Tallin, Estonia
@@ -1097,6 +1107,11 @@ Artifacts published at Zenodo can also be registered with the [Symbolic Executio
   International Conference on Computer Aided Verification (CAV 2020)  
   July 19-24, 2020, Virtual Event, USA
 
+1. [Tell You a Definite Answer: Whether Your Data is Tainted During Thread Scheduling](https://ieeexplore.ieee.org/document/8472790)  
+  Xiaodong Zhang, Zijiang Yang, Qinghua Zheng, Yu Hao, Pei Liu, Ting Liu  
+  IEEE Transactions on Software Engineering, Volume 46, Issue 9 (TSE)  
+  September 1, 2020
+
 1. [Countermeasures Optimization in Multiple Fault-Injection Context](https://ieeexplore.ieee.org/abstract/document/9237315)  
   Etienne Boespflug, Cristian Ene, Laurent Mounier, Marie-Laure Potet  
   Workshop on Fault Detection and Tolerance in Cryptography (FDTC 2020)  
@@ -1149,6 +1164,12 @@ Solving Once](https://www.semanticscholar.org/paper/Multiplex-Symbolic-Execution
   November 8-13, 2020, Virtual Event, USA  
   **PSPA is available [here](http://srg.doc.ic.ac.uk/projects/pspa/).**
 
+1. [UBITect: A Precise and Scalable Method to Detect Use-before-Initialization Bugs in Linux Kernel](https://dl.acm.org/doi/10.1145/3368089.3409686)  
+  Yizhuo Zhai, Yu Hao, Hang Zhang, Daimeng Wang, Chengyu Song, Zhiyun Qian, Mohsen Lesani, Srikanth V. Krishnamurthy, Paul Yu
+  ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2020)  
+  November 8-13, 2020, Virtual Event, USA  
+  **The artefact is available [here](https://github.com/seclab-ucr/UBITect).**
+
 1. [Type Checking beyond Type Checkers, via Slice & Run](https://dl.acm.org/doi/abs/10.1145/3427764.3428324)  
   Justus Adam, Stephen Kell  
   Workshop on Tools for Automatic Program Analysis (TAPAS 2020)  
@@ -1157,8 +1178,7 @@ Solving Once](https://www.semanticscholar.org/paper/Multiplex-Symbolic-Execution
 1. [Automatic Buffer Overflow Warning Validation](https://link.springer.com/article/10.1007/s11390-020-0525-z)  
   Feng-Juan Gao, Yu Wang, Lin-Zhang Wang, Zijiang Yang, Xuan-Dong Li  
   Automatic Buffer Overflow Warning Validation. Journal of Computer Science and Technology, Volume 35 (JCST 2020)  
-  November 20, 2020  
-  **BovInspector is available [here](https://bovinspectortool1.github.io/project/).**
+  November 20, 2020
 
 1. [TracerX: Dynamic Symbolic Execution with Interpolation](https://arxiv.org/abs/2012.00556)  
   Joxan Jaffar, Rasool Maghareh, Sangharatna Godboley, Xuan-Linh Ha  
@@ -1322,6 +1342,12 @@ Solving Once](https://www.semanticscholar.org/paper/Multiplex-Symbolic-Execution
   Asia and South Pacific Design Automation Conference (ASP-DAC 2022)  
   January 17-20, 2022, Virtual Event
 
+1. [Progressive Scrutiny: Incremental Detection of UBI bugs in the Linux Kernel](https://www.ndss-symposium.org/wp-content/uploads/2022-380-paper.pdf)  
+  Yizhuo Zhai, Yu Hao, Zheng Zhang, Weiteng Chen, Guoren Li, Zhiyun Qian, Chengyu Song, Manu Sridharan, Srikanth V. Krishnamurthy, Trent Jaeger, Paul Yu  
+  Network and Distributed System Security Symposium (NDSS 2022)  
+  February 27 - March 3, 2022, San Diego, USA  
+  **The artefact is available [here](https://github.com/seclab-ucr/IncreLux).**
+
 1. [The Taming of the Stack: Isolating Stack Data from Memory Errors](https://www.ndss-symposium.org/wp-content/uploads/2022-60-paper.pdf)  
   Kaiming Huang, Yongzhe Huang, Mathias Payer, Zhiyun Qian, Jack Sampson, Gang Tan, Trent Jaeger  
   Network and Distributed System Security Symposium (NDSS 2022)  
@@ -1358,12 +1384,17 @@ Execution of Multithreaded Software](https://tuba.ece.ufl.edu/wp-content/uploads
   Hooman Asadian, Paul Fiterau-Brostean, Bengt Jonsson, and Konstantinos Sagonas  
   IEEE International Conference on Software Testing, Verification and Validation (ICST 2022)  
   April 4-13, 2022, Virtual Event  
-  **The artefact is available [here](https://zenodo.org/record/5929867#.YgZF74zMLmE).**
+  **The artefact is available [here](https://zenodo.org/record/5929867).**
 
 1. [Automating Differential Testing with Overapproximate Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/9787827)  
   Richard Rutledge, Alessandro Orso  
   IEEE International Conference on Software Testing, Verification and Validation (ICST 2022)  
   April 4-13, 2022, Virtual Event  
+
+1. [DEEQ: Data-driven End-to-End EQuivalence Checking of High-level Synthesis](https://ieeexplore.ieee.org/abstract/document/9806218)  
+  Mohammed Abderehman, Theegala Rakesh Reddy, Chandan Karfa  
+  International Symposium on Quality Electronic Design (ISQED 2022)  
+  April 6-7, 2022, Santa Clara, USA
 
 1. [Argon: A Toolbase for Evaluating Software Protection Techniques Against Symbolic Execution Attacks](https://doi.org/10.1109/SoutheastCon48659.2022.9764028)  
   Deepak Adhikari, J. Todd McDonald, Todd R. Andel, Joseph D. Richardson  
@@ -1386,29 +1417,70 @@ Execution of Multithreaded Software](https://tuba.ece.ufl.edu/wp-content/uploads
   European Conference on Object-Oriented Programming (ECOOP 2022)  
   June 8-10, 2022, Berlin, Germany
 
-1. [Verifying SystemC TLM Peripherals using Modern C++ Symbolic Execution Tools](https://www.ics.jku.at/files/2022DAC_Verifying-SystemC-TLM-Peripherals-using-SymEx.pdf)  
+1. [Verifying SystemC TLM Peripherals using Modern C++ Symbolic Execution Tools](https://ics.jku.at/files/2022DAC_Verifying-SystemC-TLM-Peripherals-using-SymEx.pdf)  
   Pascal Pieper, Vladimir Herdt, Daniel Große, Rolf Drechsler  
   Design Automation Conference (DAC 2022)  
-  July 10-14, San Francisco, USA
+  July 10-14, 2022, San Francisco, USA
 
 1. [Combining Static Analysis Error Traces with Dynamic Symbolic Execution (Experience Paper)](https://srg.doc.ic.ac.uk/files/papers/sa-dse-issta-22.pdf)  
   Frank Busse, Pritam Gharat, Cristian Cadar, Alastair Donaldson  
   ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2022)  
-  July 18-22, Virtual Event  
+  July 18-22, 2022, Virtual Event  
   **The artefact is available [here](https://srg.doc.ic.ac.uk/projects/klee-sa/artifact.html).**
 
 1. [Semantic-Aware Vulnerability Detection](https://facsrv.cs.depaul.edu/zhuang28/Semantic_Aware_Vulnerability_Detection.pdf)  
   Zhen Huang, Marc White  
   IEEE International Conference on Cyber Security and Resilience (CSR 2022)  
-  July 27-29, Virtual Event
+  July 27-29, 2022, Virtual Event
 
 1. [LinKRID: Vetting Imbalance Reference Counting in Linux Kernel with Symbolic Execution](https://www.usenix.org/system/files/sec22summer_liu-jian.pdf)  
   Jian Liu, Lin Yi, Weiting Chen, Chengyu Song, Zhiyun Qian, Qiuping Yi  
   USENIX Security Symposium (Security 2022)  
   August, 10-12, 2022, Boston, USA
 
+1. [SKLEE: A Dynamic Symbolic Analysis Tool for Ethereum Smart Contracts (Tool Paper)](https://link.springer.com/chapter/10.1007/978-3-031-17108-6_15)  
+  Namrata Jain, Kosuke Kaneko, Subodh Sharma  
+  International Conference on Software Engineering and Formal Methods (SEFM 2022)  
+  September, 26-30, 2022, Berlin, Germany
+
+1. [Symbolic Execution for Randomized Programs](https://dl.acm.org/doi/abs/10.1145/3563344)  
+  Zachary Susag, Sumit Lahiri, Justin Hsu, Subhajit Roy  
+  Proceedings of the ACM on Programming Languages, Volume 6, Issue OOPSLA2  
+  October 31, 2022  
+  **The artefact is available [here](https://zenodo.org/record/7061819).**
+
+1. [Feedback-Driven Incremental Symbolic Execution](https://ieeexplore.ieee.org/abstract/document/9978965)  
+  Qiuping Yi, Guowei Yang  
+  IEEE International Symposium on Software Reliability Engineering (ISSRE 2022)  
+  October 31 - November 3, 2022, Charlotte, USA
+
 1. [FastKLEE: Faster Symbolic Execution via Reducing Redundant Bound Checking of Type-Safe Pointers](https://haoxintu.github.io/files/fse2022-demo-camera-ready.pdf)  
   Haoxin Tu, Lingxiao Jiang, Xuhua Ding, He Jiang  
   ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022 Demo)  
   November, 14-16, 2022, Singapore  
   **FastKLEE is available [here](https://github.com/haoxintu/FastKLEE).**
+
+1. [Solder: Retrofitting Legacy Code with Cross-Language Patches](https://seclab.nu/static/publications/saner2023solder.pdf)  
+  R. Williams, A. Gavazzi, E. Kirda  
+  IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2023)  
+  March, 21-24, 2023, Macao, China
+
+1. [An Efficient Black-Box Support of Advanced Coverage Criteria for Klee](https://arxiv.org/abs/2211.14592)  
+  Nicolas Berthier, Steven De Oliveira, Nikolai Kosmatov, Delphine Longuet, Romain Soulat  
+  ACM/SIGAPP Symposium On Applied Computing (SAC 2023)  
+  March, 27-31, 2023, Tallin, Estonia
+
+1. [An Automated Verification Framework for HalideIR-Based Compiler Transformations](https://ieeexplore.ieee.org/document/10137308)  
+  Yanzhao Wang, Fei Xie, Zhenkun Yang, Jeremy Casas, Pasquale Cocchini, Jin Yang  
+  Design, Automation and Test in Europe Conference (DATE 2023)  
+  April, 17-19, 2023, Antwerp, Belgium
+
+1. [Processor Verification using Symbolic Execution: A RISC-V Case-Study](https://ieeexplore.ieee.org/document/10137202)  
+  Niklas Bruns, Vladimir Herdt, Rolf Drechsler  
+  Design, Automation and Test in Europe Conference (DATE 2023)  
+  April, 17-19, 2023, Antwerp, Belgium
+
+1. [Automatically Generating Test Cases for Safety-critical Software via Symbolic Execution](https://doi.org/10.1016/j.jss.2023.111629)  
+  Elson Kurian, Daniela Briola, Pietro Braione, Giovanni Denaro  
+  Journal of Systems and Software, Volume 199  
+  May, 2023
